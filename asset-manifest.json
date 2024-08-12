@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9739338a.css",
-    "main.js": "/static/js/main.41f6f6f7.js",
-    "static/js/453.ab74503a.chunk.js": "/static/js/453.ab74503a.chunk.js",
-    "static/media/gaming.jpg": "/static/media/gaming.7f4a5ddb4ca2c826301e.jpg",
-    "static/media/amazon-logo.png": "/static/media/amazon-logo.79a1dd45e47017ffa5da.png",
-    "index.html": "/index.html",
-    "main.9739338a.css.map": "/static/css/main.9739338a.css.map",
-    "main.41f6f6f7.js.map": "/static/js/main.41f6f6f7.js.map",
-    "453.ab74503a.chunk.js.map": "/static/js/453.ab74503a.chunk.js.map"
+    "main.css": "/task-5-main-flow/static/css/main.24038914.css",
+    "main.js": "/task-5-main-flow/static/js/main.0107dc6d.js",
+    "static/js/453.ab74503a.chunk.js": "/task-5-main-flow/static/js/453.ab74503a.chunk.js",
+    "static/media/gaming.jpg": "/task-5-main-flow/static/media/gaming.7f4a5ddb4ca2c826301e.jpg",
+    "static/media/amazon-logo.png": "/task-5-main-flow/static/media/amazon-logo.79a1dd45e47017ffa5da.png",
+    "index.html": "/task-5-main-flow/index.html",
+    "main.24038914.css.map": "/task-5-main-flow/static/css/main.24038914.css.map",
+    "main.0107dc6d.js.map": "/task-5-main-flow/static/js/main.0107dc6d.js.map",
+    "453.ab74503a.chunk.js.map": "/task-5-main-flow/static/js/453.ab74503a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9739338a.css",
-    "static/js/main.41f6f6f7.js"
+    "static/css/main.24038914.css",
+    "static/js/main.0107dc6d.js"
   ]
 }
