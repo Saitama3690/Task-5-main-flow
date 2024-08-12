@@ -1,0 +1,117 @@
+/* Base Styles */
+
+footer {
+    margin-top: 15px;
+}
+
+.panel-1 {
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 0.8rem;
+}
+
+.panel-2 {
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 350px;
+}
+
+.panel-2 ul a {
+    display: block;
+    text-align: start;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 0.7rem;
+    color: #dddddd;
+}
+
+.panel-3 {
+    background-color: #222f3d;
+    height: 90px;
+    border-top: 0.3px solid rgb(124, 161, 170);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+    margin-top: 20px;
+    background-image: url("amazon-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.panel-4 {
+    background-color: #101924;
+    color: #dddddd;
+    font-size: 0.7rem;
+    padding: 20px;
+}
+
+/* Responsive Styles */
+
+/* Tablet and smaller devices */
+@media (max-width: 768px) {
+    .panel-2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .panel-2 ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    .panel-2 ul a {
+        margin-top: 8px;
+        font-size: 0.75rem;
+    }
+
+    .panel-3 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+}
+
+/* Mobile and smaller devices */
+@media (max-width: 480px) {
+    .panel-2 {
+        padding: 15px 5px;
+    }
+
+    .panel-2 ul a {
+        font-size: 0.7rem;
+        margin-top: 6px;
+    }
+
+    .panel-3 {
+        padding: 15px 5px;
+    }
+
+    .panel-4 {
+        font-size: 0.65rem;
+        padding: 15px 5px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 60px;
+    }
+}

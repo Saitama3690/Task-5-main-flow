@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroSection{
+    display: flex;
+    background-image: url("../../public/images/gaming.jpg");
+    background-size: cover;
+    /* background-position: center; */
+     height: 50vh; 
+    width: 100%; 
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.hero-message a{
+    color: #007185;
+}
+
